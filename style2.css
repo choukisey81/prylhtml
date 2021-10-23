@@ -1,0 +1,95 @@
+body {
+    background-image: url('https://mpng.subpng.com/20190826/chh/transparent-junk-food-fast-food-food-kids-meal-meal-5d6857d1ea9364.9184665615671193139608.jpg');
+    background:linear-gradient(45deg,limegreen);
+    
+  }
+  *{
+      margin: 0;
+  }
+  
+  #header {
+      background-color: black;
+      height: 70px;
+  }
+  #brand{
+      width: 40%;
+      float: left;
+      color: cornsilk;
+      text-align: center;
+      line-height: 70px;
+  }
+  a{
+     color: cornsilk;
+     text-decoration: none;
+     margin-right: 25px; 
+  }
+  #menu {
+      text-align: center;
+      float: right;
+      width: 60%;
+      line-height: 70px;
+  }
+  #Twitter {
+      text-align: center;
+      margin-top: 50px;
+      color: white;
+  }
+  #Instagram{
+      text-align: center;
+      margin-top: 20px;
+  }
+  #hl{
+      background:linear-gradient(45deg,darkred,black);
+      width: 70%;
+      color: white;
+      padding: 30px;
+      border-radius: 80%;
+      margin: 10px auto;
+  }
+  p{
+      color: white;
+  }
+  #ct{
+      background:linear-gradient(45deg,darkgreen,black);
+      width: 20%;
+      color: white;
+      padding: 20px;
+      border-radius: 40%;
+      text-align: center;
+      float:right;
+  
+  
+  }
+  #ci{
+      background:linear-gradient(45deg,darkgreen,black);
+      width: 20%;
+      color: white;
+      padding: 20px;
+      border-radius: 40%;
+      text-align: center;
+      float:left;
+     
+  
+  }
+  #cf{
+      background:linear-gradient(45deg,darkgreen,black);
+      width: 20%;
+      color: white;
+      padding: 20px;
+      border-radius: 40%;
+      text-align: center;
+      float:right;
+      background-position: right;
+  
+  
+  }
+  #cg{
+      background:linear-gradient(45deg,darkgreen,black);
+      width: 20%;
+      color: white;
+      padding: 20px;
+      border-radius: 40%;
+      text-align: center;
+      float:left;
+      background-position: right;
+  }
