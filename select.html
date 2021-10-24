@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2:hover{
+            color: aqua;
+            text-align: center;
+        }
+        button:hover{
+
+        }
+        form{
+            text-align: center;
+        }
+        #1:hover p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- select tag -->
+    <h2>this is form</h2>
+    
+    <form>
+        
+        <label>name</label>
+        <input type="text" name="name" placeholder="name" required minlength="3" pattern="a-zA-Z"/><br>
+        <label>Password</label>
+            <input type="text" name="password" placeholder="Password" required minlength="8" pattern="a-z">
+        </label><br>
+        <label>email</label>
+        <input type="email" pattern="@gmail.com" placeholder="email id"><br>
+        <label>Mobile Num</label>
+        <input type="digit" pattern="(0-9)" placeholder="Number" required minlength="10" maxlength="10"><br>
+    <label for="Selector">select the product</label>
+    <select id="selection">
+        <option value="car">car</option>
+        <option value="bike">bike</option>
+        <option value="bycicle">bycicle</option><br>
+       <input type="Submit"><br>
+       <button>click me</button>
+    </select>
+</form>
+    <!-- validation -->
+    <!-- pattern means atoz n A to Z
+    p-minimum lenght 8,alphbet,number,*%
+phone num-+91 input(10character)numbers -->
+<div id="1">
+    hi i am priyal
+    <p style="display: none;">dfhgjgd</p>
+</div>
+</body>
+</html>
